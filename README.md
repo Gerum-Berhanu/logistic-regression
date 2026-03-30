@@ -28,6 +28,6 @@ python load_dataset.py
 ```
 
 Why this step matters:
-- Both notebooks expect a local copy of `dataset/Social_Network_Ads.csv`
+- Jupyter notebooks expect a local copy of `dataset/Social_Network_Ads.csv`
 - `load_dataset.py` downloads the Kaggle dataset once, moves the CSV into the expected folder, and prints a quick preview so you can confirm the file loaded correctly
 - If the CSV already exists locally, the script detects that and skips the download
